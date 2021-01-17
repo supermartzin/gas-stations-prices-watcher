@@ -154,6 +154,12 @@
       <Version>6.2.10</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FuelPricesWatcher.Services\FuelPricesWatcher.Services.csproj">
+      <Project>{163a145f-7727-453a-b29e-c229316b579f}</Project>
+      <Name>FuelPricesWatcher.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

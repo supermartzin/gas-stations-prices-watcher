@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
 
 namespace FuelPricesWatcher.Models
 {
@@ -13,7 +12,7 @@ namespace FuelPricesWatcher.Models
 
         public FuelPricePair CurrentPrice { get; private set; }
 
-        public IList<FuelPricePair> HistoricPrices => new ReadOnlyCollection<FuelPricePair>(_historicPrices);
+        public IList<FuelPricePair> HistoricPrices => new List<FuelPricePair>(_historicPrices);
 
         public Fuel(FuelType type, string name, FuelPricePair currentPrice)
         {
