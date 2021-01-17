@@ -1,4 +1,4 @@
-﻿namespace GasPricesWatcher.Models
+﻿namespace FuelPricesWatcher.Models
 {
     public enum FuelType
     {

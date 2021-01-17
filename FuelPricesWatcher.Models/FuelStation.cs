@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Geolocation;
 
-namespace GasPricesWatcher.Models
+namespace FuelPricesWatcher.Models
 {
     public class FuelStation
     {

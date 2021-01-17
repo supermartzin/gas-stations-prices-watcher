@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace GasPricesWatcher.Models
+namespace FuelPricesWatcher.Models
 {
     public class Fuel
     {

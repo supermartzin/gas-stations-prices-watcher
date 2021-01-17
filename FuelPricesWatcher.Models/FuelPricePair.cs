@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GasPricesWatcher.Models
+namespace FuelPricesWatcher.Models
 {
     public class FuelPricePair
     {

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasPricesWatcher.UI.UWP", "GasPricesWatcher.UI.UWP\GasPricesWatcher.UI.UWP.csproj", "{0663FC94-5D28-424B-83D9-553D5B52C6B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelPricesWatcher.UI.UWP", "FuelPricesWatcher.UI.UWP\FuelPricesWatcher.UI.UWP.csproj", "{0663FC94-5D28-424B-83D9-553D5B52C6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasPricesWatcher.Models", "GasPricesWatcher.Models\GasPricesWatcher.Models.csproj", "{ACF56320-7616-4ACC-8F67-D4FF90E1E987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelPricesWatcher.Models", "FuelPricesWatcher.Models\FuelPricesWatcher.Models.csproj", "{ACF56320-7616-4ACC-8F67-D4FF90E1E987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuelPricesWatcher.Services", "FuelPricesWatcher.Services\FuelPricesWatcher.Services.csproj", "{163A145F-7727-453A-B29E-C229316B579F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,26 @@ Global
 		{ACF56320-7616-4ACC-8F67-D4FF90E1E987}.Release|x64.Build.0 = Release|Any CPU
 		{ACF56320-7616-4ACC-8F67-D4FF90E1E987}.Release|x86.ActiveCfg = Release|Any CPU
 		{ACF56320-7616-4ACC-8F67-D4FF90E1E987}.Release|x86.Build.0 = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|x64.Build.0 = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Debug|x86.Build.0 = Debug|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|ARM.Build.0 = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|ARM64.Build.0 = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|x64.ActiveCfg = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|x64.Build.0 = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|x86.ActiveCfg = Release|Any CPU
+		{163A145F-7727-453A-B29E-C229316B579F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
